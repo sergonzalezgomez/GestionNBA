@@ -7,5 +7,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="ComponenteBarraEstado" level="project" />
+    <orderEntry type="library" name="forms-1.2.1" level="project" />
+    <orderEntry type="library" name="jgoodies-common-1.8.1" level="project" />
+    <orderEntry type="library" name="LGoodDatePicker-10.3.1" level="project" />
+    <orderEntry type="library" name="libPanelMensajes" level="project" />
   </component>
 </module>

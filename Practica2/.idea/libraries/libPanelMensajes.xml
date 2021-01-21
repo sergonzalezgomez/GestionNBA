@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="libPanelMensajes">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/libPanelMensajes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
