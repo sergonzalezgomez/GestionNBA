@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8dc2842-8cbe-4d39-b869-6b4121e62614" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/images.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ComponenteBarraEstado.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/LGoodDatePicker_10_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/forms_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jgoodies_common_1_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/libPanelMensajes.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practica2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gestionNBA/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gestionNBA/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gestionNBA/mvc/gui/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gestionNBA/mvc/gui/Controlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica2/gestionNBA/mvc/gui/Vista.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica2/gestionNBA/mvc/gui/Vista.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gestionNBA/mvc/gui/Vista.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/gestionNBA/mvc/gui/Vista.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gestionNBA/mvc/gui/Vista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gestionNBA/mvc/gui/Vista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gestionNBA/mvc/modelo/Modelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gestionNBA/mvc/modelo/Modelo.java" afterDir="false" />
@@ -128,22 +119,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611312452787" />
-    <state width="1493" height="157" key="GridCell.Tab.0.bottom" timestamp="1611341474453">
+    <state width="1493" height="157" key="GridCell.Tab.0.bottom" timestamp="1611348496258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="157" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611341474453" />
-    <state width="1493" height="157" key="GridCell.Tab.0.center" timestamp="1611341474453">
+    <state width="1493" height="157" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611348496258" />
+    <state width="1493" height="157" key="GridCell.Tab.0.center" timestamp="1611348496258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="157" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611341474453" />
-    <state width="1493" height="157" key="GridCell.Tab.0.left" timestamp="1611341474453">
+    <state width="1493" height="157" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611348496258" />
+    <state width="1493" height="157" key="GridCell.Tab.0.left" timestamp="1611348496258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="157" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611341474453" />
-    <state width="1493" height="157" key="GridCell.Tab.0.right" timestamp="1611341474453">
+    <state width="1493" height="157" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611348496258" />
+    <state width="1493" height="157" key="GridCell.Tab.0.right" timestamp="1611348496258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="157" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611341474453" />
+    <state width="1493" height="157" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611348496258" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1611260225052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
