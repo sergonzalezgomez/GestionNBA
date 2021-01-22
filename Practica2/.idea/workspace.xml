@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8dc2842-8cbe-4d39-b869-6b4121e62614" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/images.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ComponenteBarraEstado.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/LGoodDatePicker_10_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/forms_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jgoodies_common_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/libPanelMensajes.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practica2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practica2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gestionNBA/base/Conferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gestionNBA/base/Conferencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gestionNBA/base/Equipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gestionNBA/base/Equipo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gestionNBA/base/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gestionNBA/base/Jugador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gestionNBA/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gestionNBA/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gestionNBA/mvc/gui/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gestionNBA/mvc/gui/Controlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gestionNBA/mvc/gui/Vista.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/gestionNBA/mvc/gui/Vista.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gestionNBA/mvc/gui/Vista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gestionNBA/mvc/gui/Vista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gestionNBA/mvc/modelo/Modelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gestionNBA/mvc/modelo/Modelo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,24 +41,50 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE" value="right" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="316" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sergo\Desktop\Clase\Dam2\Desarrollo de interfaces\Practica2\src" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="gestionNBA.base" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sergo\Desktop\Clase\Dam2\Desarrollo de interfaces\Practica2\Practica2" />
       <recent name="C:\Users\sergo\Desktop\Clase\Dam2\Desarrollo de interfaces\Practica2\Practica2\libs" />
       <recent name="C:\Users\sergo\Desktop\Clase\Dam2\Desarrollo de interfaces\Practica2" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sergo\Desktop\Clase\Dam2\Desarrollo de interfaces\Practica2\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gestionNBA.Principal" />
+      <module name="Practica2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gestionNBA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Principal" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -65,21 +100,57 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1611251976272">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1611260401807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1611251976272" />
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1611260401807" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1611254946068">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1611254946068" />
+    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611306170305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1611306170305" />
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1611341111174">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1611341111174" />
     <state x="403" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1611176485251">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="403" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1611176485251" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1611166743730">
+    <state x="644" y="300" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff" timestamp="1611306173137">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611166743730" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1611167712279">
+    <state x="644" y="300" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/0.0.1536.824@0.0.1536.824" timestamp="1611306173137" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1611312452787">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611167712279" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611312452787" />
+    <state width="1493" height="157" key="GridCell.Tab.0.bottom" timestamp="1611341474453">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="157" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611341474453" />
+    <state width="1493" height="157" key="GridCell.Tab.0.center" timestamp="1611341474453">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="157" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611341474453" />
+    <state width="1493" height="157" key="GridCell.Tab.0.left" timestamp="1611341474453">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="157" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611341474453" />
+    <state width="1493" height="157" key="GridCell.Tab.0.right" timestamp="1611341474453">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="157" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611341474453" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1611260225052">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611260225052" />
+    <state x="555" y="293" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1611262628275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="293" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1611262628275" />
   </component>
 </project>

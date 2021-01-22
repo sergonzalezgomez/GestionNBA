@@ -1,13 +1,814 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gestionNBA.mvc.gui.Vista">
-  <grid id="27dc6" row-count="1" column-count="1" layout-manager="FormLayout">
-    <margin top="0" left="0" bottom="0" right="0"/>
+  <grid id="27dc6" binding="panelGeneral" layout-manager="BorderLayout" hgap="0" vgap="0">
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
-      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+      <xy x="20" y="20" width="560" height="463"/>
     </constraints>
     <properties/>
-    <border type="none"/>
-    <children/>
+    <border type="none">
+      <color color="-14262543"/>
+    </border>
+    <children>
+      <grid id="68946" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none">
+          <color color="-14388037"/>
+        </border>
+        <children>
+          <component id="e924e" class="javax.swing.JLabel" binding="lblNombre">
+            <constraints border-constraint="West"/>
+            <properties>
+              <font size="14" style="0"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="185" height="16"/>
+              <text value="© Sergio González Gómez"/>
+            </properties>
+          </component>
+          <grid id="8d4c0" binding="panelInferiorDerecha" layout-manager="FlowLayout" hgap="15" vgap="5" flow-align="1">
+            <constraints border-constraint="East"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="7fc62" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <icon value="usuario.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="e223" class="javax.swing.JLabel" binding="lblNombreUsuario">
+                <constraints/>
+                <properties>
+                  <font size="16" style="1"/>
+                  <text value="admin"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <tabbedpane id="18146" default-binding="true">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <font size="18" style="0"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="75e02" layout-manager="FormLayout">
+            <rowspec value="center:d:noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <colspec value="fill:d:noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:d:grow"/>
+            <constraints>
+              <tabbedpane title="Jugador"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="95049" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <horizontalAlignment value="10"/>
+                  <text value="Nombre:"/>
+                </properties>
+              </component>
+              <component id="52fce" class="javax.swing.JTextField" binding="txtNombreJugador">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms top="5" left="0" bottom="5" right="10" defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="64" height="37"/>
+                </properties>
+              </component>
+              <component id="c65c0" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0" defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <text value="Apellidos:"/>
+                </properties>
+              </component>
+              <component id="69562" class="javax.swing.JTextField" binding="txtApellidosJugador">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms top="5" left="0" bottom="5" right="10" defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="64" height="37"/>
+                </properties>
+              </component>
+              <component id="1069d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="160" height="25"/>
+                  <text value="Fecha Nacimiento:"/>
+                </properties>
+              </component>
+              <component id="b1e47" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <text value="Puntos:"/>
+                </properties>
+              </component>
+              <component id="8d72" class="javax.swing.JSpinner" binding="spnPuntosJugador">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms top="5" left="0" bottom="5" right="10" defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="103" height="37"/>
+                </properties>
+              </component>
+              <component id="6df6b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <text value="Foto:"/>
+                </properties>
+              </component>
+              <grid id="c9a64" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="85e03" class="javax.swing.JButton" binding="botSeleccionarFotoJugador">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <icon value="añadirImagen.png"/>
+                      <preferredSize width="45" height="37"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="82c49" class="javax.swing.JLabel" binding="lblFotoJugador">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <horizontalAlignment value="0"/>
+                      <preferredSize width="29" height="16"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="da580" class="javax.swing.JButton" binding="botCrearJugador">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0" defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <icon value="añadirJugador.png"/>
+                  <preferredSize width="45" height="45"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="fb6bc" class="com.github.lgooddatepicker.components.DatePicker" binding="datePickerFechaJugador">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="5" left="0" bottom="5" right="10"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="231" height="37"/>
+                </properties>
+              </component>
+              <component id="edcc7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <text value="Equipo:"/>
+                </properties>
+              </component>
+              <component id="7d223" class="javax.swing.JComboBox" binding="cmboxEquipos">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms top="5" left="0" bottom="5" right="10"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="93" height="37"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="d17c8" layout-manager="FormLayout">
+            <rowspec value="center:d:noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <colspec value="fill:d:noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:d:grow"/>
+            <constraints>
+              <tabbedpane title="Equipo"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="4fded" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <horizontalAlignment value="10"/>
+                  <text value="Nombre:"/>
+                </properties>
+              </component>
+              <component id="e573e" class="javax.swing.JTextField" binding="txtNombreEquipo">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms top="5" left="0" bottom="5" right="10" defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="64" height="37"/>
+                </properties>
+              </component>
+              <component id="1df4d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0" defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <text value="Año Fundación:"/>
+                </properties>
+              </component>
+              <component id="5c456" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="160" height="25"/>
+                  <text value="Estadio:"/>
+                </properties>
+              </component>
+              <component id="deeb" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <text value="Foto:"/>
+                </properties>
+              </component>
+              <grid id="c06ff" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="937c5" class="javax.swing.JButton" binding="botSeleccionarFotoEquipo">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <icon value="añadirImagen.png"/>
+                      <preferredSize width="45" height="37"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="a4298" class="javax.swing.JLabel">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <horizontalAlignment value="0"/>
+                      <preferredSize width="29" height="16"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="d1e47" class="javax.swing.JButton" binding="botCrearEquipo">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0" defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <icon value="añadirJugadores.png"/>
+                  <preferredSize width="45" height="45"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="23956" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <text value="Jugadores:"/>
+                </properties>
+              </component>
+              <component id="5dcbb" class="javax.swing.JComboBox" binding="cmboxJugadoresEquipo">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms top="5" left="0" bottom="5" right="10"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="93" height="37"/>
+                </properties>
+              </component>
+              <component id="86f64" class="javax.swing.JSpinner" binding="spnAnnoFundacionEquipo">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms top="5" left="0" bottom="5" right="10" defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="103" height="37"/>
+                </properties>
+              </component>
+              <component id="e0e8c" class="javax.swing.JTextField" binding="txtNombreEstadio">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms top="5" left="0" bottom="5" right="10" defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="64" height="37"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="5ed98" layout-manager="FormLayout">
+            <rowspec value="center:d:noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <colspec value="fill:d:noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:d:grow"/>
+            <constraints>
+              <tabbedpane title="Conferencia"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="8d9fc" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <horizontalAlignment value="10"/>
+                  <text value="Nombre:"/>
+                </properties>
+              </component>
+              <component id="9a197" class="javax.swing.JTextField" binding="txtNombreConferencia">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms top="5" left="0" bottom="5" right="10" defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="64" height="37"/>
+                </properties>
+              </component>
+              <component id="9135c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0" defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <text value="Año Fundación:"/>
+                </properties>
+              </component>
+              <component id="f28bf" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="160" height="25"/>
+                  <text value="Títulos:"/>
+                </properties>
+              </component>
+              <component id="660ef" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <text value="Foto:"/>
+                </properties>
+              </component>
+              <component id="9f754" class="javax.swing.JButton" binding="botCrearConferencia">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0" defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <icon value="agregarConferencia.png"/>
+                  <preferredSize width="45" height="45"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="45fba" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms top="0" left="10" bottom="0" right="0"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <text value="Equipos:"/>
+                </properties>
+              </component>
+              <component id="3ce2d" class="javax.swing.JComboBox" binding="cmboxEquiposConferencia">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms top="5" left="0" bottom="5" right="10"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="93" height="37"/>
+                </properties>
+              </component>
+              <component id="2887a" class="javax.swing.JSpinner" binding="spnAnnoFundacionConferencia">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms top="5" left="0" bottom="5" right="10" defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="103" height="37"/>
+                </properties>
+              </component>
+              <component id="35a63" class="javax.swing.JSpinner" binding="spnTitulosConferencia">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms top="5" left="0" bottom="5" right="10" defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="0"/>
+                  <preferredSize width="103" height="37"/>
+                </properties>
+              </component>
+              <grid id="ef219" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="4a729" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints border-constraint="West"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="8f046" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <icon value="conferenciaEste.png"/>
+                          <preferredSize width="100" height="100"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="2e094" class="javax.swing.JRadioButton" binding="radioBotConferenciaEste">
+                        <constraints/>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="d7561" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <icon value="conferenciaOeste.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="23a7c" class="javax.swing.JRadioButton" binding="radioBotConferenciaOeste">
+                        <constraints/>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="6c152" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <tabbedpane title="Vista"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="e7471" layout-manager="FormLayout">
+                <rowspec value="center:d:noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <colspec value="fill:d:noGrow"/>
+                <constraints/>
+                <properties>
+                  <preferredSize width="250" height="300"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <scrollpane id="6d24b">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <preferredSize width="250" height="250"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="42d58" class="javax.swing.JList" binding="listaJugadores">
+                        <constraints/>
+                        <properties/>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <grid id="5aa82" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <minimumSize width="180" height="60"/>
+                      <preferredSize width="45" height="50"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="ee486" class="javax.swing.JButton" binding="botGrafico">
+                        <constraints/>
+                        <properties>
+                          <icon value="grafica.png"/>
+                          <preferredSize width="45" height="45"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="20f83" class="javax.swing.JButton" binding="botEliminarJugador">
+                        <constraints/>
+                        <properties>
+                          <icon value="eliminarJugador.png"/>
+                          <preferredSize width="45" height="45"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="21246" layout-manager="FormLayout">
+                <rowspec value="center:d:noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <colspec value="fill:d:noGrow"/>
+                <constraints/>
+                <properties>
+                  <preferredSize width="250" height="300"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <scrollpane id="1eea3">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <preferredSize width="250" height="250"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="d2f8d" class="javax.swing.JList" binding="listaEquipos">
+                        <constraints/>
+                        <properties/>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <grid id="96a1e" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <minimumSize width="180" height="60"/>
+                      <preferredSize width="45" height="50"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="ecf98" class="javax.swing.JButton" binding="botAnnadirJugadores">
+                        <constraints/>
+                        <properties>
+                          <icon value="añadirJugadores.png"/>
+                          <preferredSize width="45" height="45"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="ac968" class="javax.swing.JButton" binding="botEliminarEquipo">
+                        <constraints/>
+                        <properties>
+                          <icon value="loginCancelar.png"/>
+                          <preferredSize width="45" height="45"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="8966" layout-manager="FormLayout">
+                <rowspec value="center:d:noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <colspec value="fill:d:noGrow"/>
+                <constraints/>
+                <properties>
+                  <preferredSize width="250" height="300"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <scrollpane id="d4f1d">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <preferredSize width="250" height="250"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="c1747" class="javax.swing.JList" binding="listaConferencias">
+                        <constraints/>
+                        <properties/>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <grid id="b414d" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <minimumSize width="180" height="60"/>
+                      <preferredSize width="45" height="50"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="c824a" class="javax.swing.JButton" binding="botAnnadirEquipo">
+                        <constraints/>
+                        <properties>
+                          <icon value="agregarConferencia.png"/>
+                          <preferredSize width="45" height="45"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="e72d4" class="javax.swing.JButton" binding="botEliminarConferencia">
+                        <constraints/>
+                        <properties>
+                          <icon value="eliminarConferencia.png"/>
+                          <preferredSize width="45" height="45"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <grid id="604c6" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d9427" class="javax.swing.JButton" binding="botConfiguracion">
+            <constraints border-constraint="East"/>
+            <properties>
+              <icon value="configuracion.png"/>
+              <preferredSize width="45" height="45"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="e49dc" layout-manager="FormLayout">
+            <rowspec value="center:d:grow"/>
+            <colspec value="fill:d:noGrow"/>
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="bbfe9" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="d2bc7" class="javax.swing.JButton" binding="botGuardar">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <alignmentY value="0.0"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="guardar.png"/>
+                      <preferredSize width="45" height="50"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="99b5f" class="javax.swing.JButton" binding="botAbrir">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="abrir.png"/>
+                      <preferredSize width="45" height="45"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="c6304" class="javax.swing.JButton" binding="botUsuarios">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="usuarios.png"/>
+                      <preferredSize width="45" height="45"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
   </grid>
 </form>
